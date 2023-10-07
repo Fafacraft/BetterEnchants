@@ -1,6 +1,7 @@
 package fafacraft.betterenchants.items;
 
 import fafacraft.betterenchants.BetterEnchants;
+import fafacraft.betterenchants.blocks.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,6 +26,8 @@ public class ModCreativeModTab {
                 pOutput.accept(ModItems.SECOND_ITEM.get());
 
                 pOutput.accept(Items.DIAMOND);
+
+                pOutput.accept(ModBlocks.FIRST_BLOCK.get());
             })
             .build());
 

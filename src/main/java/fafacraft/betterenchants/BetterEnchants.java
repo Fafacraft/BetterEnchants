@@ -2,6 +2,7 @@ package fafacraft.betterenchants;
 
 import com.mojang.logging.LogUtils;
 
+import fafacraft.betterenchants.blocks.ModBlocks;
 import fafacraft.betterenchants.items.ModCreativeModTab;
 import fafacraft.betterenchants.items.ModItems;
 import net.minecraft.client.Minecraft;
@@ -36,9 +37,7 @@ import org.slf4j.Logger;
 @Mod(BetterEnchants.MODID)
 public class BetterEnchants
 {
-    // Define mod id in a common place for everything to reference
     public static final String MODID = "betterenchants";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public BetterEnchants()
@@ -48,6 +47,7 @@ public class BetterEnchants
         ModCreativeModTab.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
