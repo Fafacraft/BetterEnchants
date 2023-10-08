@@ -22,6 +22,8 @@ public class ModBlocks {
     /* create the first_block block */
     public static final RegistryObject<Block> FIRST_BLOCK = registerBlock("first_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    public static final RegistryObject<Block> COMP_MANA_BLOCK = registerBlock("comp_mana_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE)));
+
     /* create the enchanting_altar block */
     public static final RegistryObject<Block> ENCHANTING_ALTAR = registerBlock("enchanting_altar", 
         () -> new EnchantingAltar(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()));

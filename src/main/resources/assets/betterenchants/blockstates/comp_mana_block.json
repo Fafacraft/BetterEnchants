@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "betterenchants:block/comp_mana_block"
+        }
+    }
+}

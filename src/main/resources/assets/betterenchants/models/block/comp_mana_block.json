@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "betterenchants:block/comp_mana_block"
+    }
+}

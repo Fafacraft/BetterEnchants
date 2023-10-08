@@ -28,6 +28,7 @@ public class ModCreativeModTab {
                 pOutput.accept(Items.DIAMOND);
 
                 pOutput.accept(ModBlocks.FIRST_BLOCK.get());
+                pOutput.accept(ModBlocks.COMP_MANA_BLOCK.get());
                 pOutput.accept(ModBlocks.ENCHANTING_ALTAR.get());
             })
             .build());
