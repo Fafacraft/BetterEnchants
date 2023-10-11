@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "GEG",
+        "QQQ"
+    ],
+    "key": {
+        "G" : {
+            "item":"minecraft:gold_ingot"
+        },
+        
+        "E" : {
+            "item":"minecraft:enchanting_table"
+        },
+        
+        "Q" : {
+            "item":"minecraft:quartz_block"
+        }
+    },
+    "result": {
+        "item": "betterenchants:enchanting_altar",
+        "count": 1
+    }
+}
